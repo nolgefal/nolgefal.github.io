@@ -1,0 +1,36 @@
+
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: false
+
+# Setup
+title:            Notes
+tagline:          "Privated blog"
+description:      "Notes and Resources"
+url:              "https://nolgefal.github.io/"
+baseurl:          /
+email:            nolgefal@gmail.com
+twitter_username: nolgefal
+github_username:  nolgefal
+
+author:
+  name:           "Nolgefal"
+  url:            "https://nolgefal.github.io"
+
+plugins:          [jekyll-paginate]
+paginate:         10
+
+collections:
+  courses:
+    output: true
+    permalink: /:collection/:path
+
+social:
+  github:        "https://github.com/nolgefal"
+  blog:          "https://github.com/nolgefal/nolgefal.github.io"
+  linkedin:      "https://www.linkedin.com/in/lhlong"
+  flickr:        "https://www.flickr.com/photos/lhlong"
